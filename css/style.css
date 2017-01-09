@@ -66,6 +66,7 @@ a {
 .container {
   width: 100vw;
   margin: 0 auto;
+  overflow: hidden;
 }
 .logo {
   font-size: 48px;
@@ -117,7 +118,7 @@ header nav ul li a {
 
 @media screen and (max-width:480px) {
   .container{
-    width: 100vw;
+    width: 100%;
   }
   .logo {
     font-size: 1.5em;
@@ -133,11 +134,9 @@ header nav ul li a {
     text-align: center;
     width: 100%;
     position: relative;
-    z-index: 100;
-    margin-left: 0px;
+    margin:0;
     top: 25px;
     background-color: rgba(1,1,1,.4);
-    transition: all 1s ease-in-out 1s, visibility 1s linear 0.3s;
   }
 
   .dropped a {
@@ -161,10 +160,8 @@ header nav ul li a {
     margin-top: 10px;
   }
 
-  ul {
-    white-space: nowrap;
-    height: 36px;
-    margin-top: 0px;
+  nav ul {
+    padding-right: 0px;
   }
 }
 
