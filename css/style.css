@@ -136,7 +136,7 @@ header nav ul li a {
     position: relative;
     margin:0;
     top: 25px;
-    background-color: rgba(1,1,1,.4);
+    background-color: rgba(1,1,1,.8);
   }
 
   .dropped a {
@@ -165,7 +165,7 @@ header nav ul li a {
   }
 }
 
-@media screen and (min-width:481px) and (max-width:798px) {
+@media screen and (min-width:481px) and (max-width:768px) {
   nav ul li a {
     font-size: .8em;
   }
@@ -221,7 +221,7 @@ header nav ul li a {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 798px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   #hero h2 {
     font-size: 1.5em;
     margin: 18% 20px;
@@ -279,7 +279,7 @@ h3 {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 798px){
+@media screen and (min-width: 481px) and (max-width: 768px){
   #benefits {
     padding: 10px 0px 20px;
     font-size: .9em;
@@ -300,6 +300,36 @@ h3 {
     height: 100%;
     padding-right: 5%;
     overflow: visible;
+  }
+
+  #benefits li {
+    width: 80%;
+    white-space: normal;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 960px){
+  #benefits {
+    padding: 10px 0px 20px;
+  }
+
+  #benefits h3{
+  margin: 10px 10px;
+  }
+
+  #benefits p {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+  }
+
+  #benefits ul {
+    width: 100%;
+    height: 100%;
+    padding-right: 5%;
+    overflow: visible;
+    padding-left: 10%;
   }
 
   #benefits li {
@@ -335,7 +365,7 @@ blockquote span {
   }
 }
 
-@media screen and (min-width:481px) and (max-width:798px) {
+@media screen and (min-width:481px) and (max-width:768px) {
   blockquote {
     width: 100vw;
     font-size: .9em;
@@ -447,6 +477,157 @@ blockquote span {
   text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+  #main {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  #posts {
+    width: 100%;
+  }
+
+  #posts .post h2 {
+    font-size: .9em;
+    padding-left: 10%;
+  }
+
+  .post p {
+    font-size: .75em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #sidebar {
+  width: 100%;
+  text-align: center;
+  }
+
+  #sidebar h3 {
+    font-size: 1em;
+  }
+
+  #sidebar img {
+    height: 50vh;
+  }
+
+  #sidebar p {
+    margin: 5% 5%;
+  }
+
+}
+
+@media screen and (min-width: 481px) and (max-width:768px){
+  #main {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  #posts {
+    width: 100%;
+  }
+
+  #posts .post h2 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .post p {
+    font-size: .9em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #sidebar {
+  width: 100%;
+  text-align: center;
+  }
+
+  #sidebar h3 {
+    font-size: 1em;
+  }
+
+  #sidebar img {
+    height: 50vh;
+  }
+
+  #sidebar p {
+    margin: 5% 5%;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px){
+  #main {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  #posts {
+    width: 100%;
+  }
+
+  #posts .post h2 {
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .post p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #posts img {
+    margin-left: 5%;
+  }
+
+  #sidebar {
+  width: 100%;
+  text-align: center;
+  }
+
+  #sidebar h3 {
+    font-size: 1em;
+  }
+
+  #sidebar img {
+    height: 50vh;
+
+  }
+
+  #sidebar p {
+    margin: 1% 5%;
+  }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1200px){
+  .post h2, .post p {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  #posts {
+    width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 1201px) {
+  .drop a {
+    font-size: 1.25em;
+  }
+
+  .post h2, .post p {
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  #posts {
+    width: 70%;
+  }
+}
+
 footer {
   background: #121212;
   padding: 65px 0 45px;
@@ -478,5 +659,9 @@ footer p {
 
   footer .logo {
     margin-bottom: 20px;
+  }
+
+  footer ul li{
+    margin-bottom: 0px;
   }
 }
