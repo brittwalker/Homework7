@@ -490,6 +490,7 @@ blockquote span {
   #posts .post h2 {
     font-size: .9em;
     padding-left: 10%;
+    padding-right: 5%;
   }
 
   .post p {
@@ -608,6 +609,18 @@ blockquote span {
   }
 
   #posts {
+    width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  #benefits h3, #benefits p, #benefits ul li {
+  margin-left: 15vw;
+  width: 100%;
+  }
+
+  #benefits p {
     width: 70%;
   }
 
